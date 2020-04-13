@@ -1,0 +1,36 @@
+{
+    "TableNames": [
+       
+        "addresses",
+        "alerts",
+        "assets",
+        "carriers",
+        "certificates",
+        "chats",
+        "contacts",
+        "customers",
+        "cycles",
+        "dailyInspections",
+        "documents",
+        "drivers",
+        "entries",
+        "eventLogs",
+        "expenseTypes",
+        "expenses",
+        "fuelEntries",
+        "groups",
+        "inspectionForms",
+        "insurances",
+        "loads",
+        "quantums",
+        "receivers",
+        "serviceVendors",
+        "shippers",
+        "tickets",
+        "trips",
+        "users",
+        "vehicleServiceLogs",
+        "vehicles",
+        "yards"
+    ]
+}

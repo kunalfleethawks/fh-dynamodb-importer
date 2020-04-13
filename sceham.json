@@ -1,0 +1,61 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "accountID",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "carrierID",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "accounts",
+        "KeySchema": [
+            {
+                "AttributeName": "accountID",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2020-03-02T16:18:04.586000+05:30",
+        "ProvisionedThroughput": {
+            "LastDecreaseDateTime": "2020-03-04T13:57:13.478000+05:30",
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 260,
+        "ItemCount": 2,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:112567001577:table/accounts",
+        "TableId": "99333956-e289-43c2-b6e5-60584e23e565",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2020-03-28T17:43:58.277000+05:30"
+        },
+        "GlobalSecondaryIndexes": [
+            {
+                "IndexName": "carrierID-index",
+                "KeySchema": [
+                    {
+                        "AttributeName": "carrierID",
+                        "KeyType": "HASH"
+                    }
+                ],
+                "Projection": {
+                    "ProjectionType": "ALL"
+                },
+                "IndexStatus": "ACTIVE",
+                "ProvisionedThroughput": {
+                    "LastDecreaseDateTime": "2020-03-28T17:43:51.619000+05:30",
+                    "NumberOfDecreasesToday": 0,
+                    "ReadCapacityUnits": 0,
+                    "WriteCapacityUnits": 0
+                },
+                "IndexSizeBytes": 260,
+                "ItemCount": 2,
+                "IndexArn": "arn:aws:dynamodb:ap-south-1:112567001577:table/accounts/index/carrierID-index"
+            }
+        ]
+    }
+}
